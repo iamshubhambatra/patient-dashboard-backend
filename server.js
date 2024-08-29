@@ -5,7 +5,7 @@ const http = require('http');
 const { Server } = require('socket.io');
 const cors = require('cors');
 
-const Patient = require("../models/patient.model");
+const Patient = require("./src/models/patient.model");
 const connectionString = require("./src/enums")
 
 // Initialize app and middleware
